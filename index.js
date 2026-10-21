@@ -20,7 +20,7 @@ const songs = [
 
 function createFile(songs) {
   songs.forEach((song) => {
-    fs.writeFile(`${song.title} - ${song.title}.mp3`, "", function () {});
+    fs.writeFileSync(`${song.title} - ${song.title}.mp3`, "");
   });
 }
 
