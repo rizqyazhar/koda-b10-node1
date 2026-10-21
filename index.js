@@ -1,5 +1,7 @@
 const fs = require("node:fs");
 
+const PATH = "C:\Users\asus\Music";
+
 const songs = [
   { title: "Bang Bang", artist: "Niki Minaj" },
   { title: "Starships", artist: "Niki Minaj" },
