@@ -67,7 +67,7 @@ const songs = [
 
 function createFile(songs) {
   songs.forEach((song) => {
-    fs.writeFileSync(`${song.title} - ${song.title}.mp3`, "");
+    fs.writeFileSync(`${song.title} - ${song.artist}.mp3`, "");
   });
 }
 
